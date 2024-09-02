@@ -1,0 +1,27 @@
+<div>
+    <%= flash[:notice] %></div>
+
+
+
+<p><strong>Title:</strong><%= @list.title %></p>
+
+
+<p><strong>Body:</strong><%= @list.body %></p>
+
+<%= link_to "Edit",edit_list_path(@list.id) %>
+<td>|</td>
+<a href= "/lists#new">Back</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
